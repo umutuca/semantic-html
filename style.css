@@ -2,6 +2,9 @@ h1{
         margin-left: 20px;
         padding-left: 20px;
         text-align: center;
+        color:antiquewhite;
+        font-size: 65px;
+        background: dodgerblue;
 }
 h2{
     text-align: center;
@@ -18,7 +21,7 @@ aside h3{
      text-decoration: underline black;
 }
 body{
-    background-color: antiquewhite;
+    background-color: whitesmoke
     text-align: left;
 
     
@@ -34,15 +37,23 @@ article{
     max-width: 550px;
     padding-left:10px;
     margin:15px;
+    border:solid dodgerblue 5px;
+    background-color:antiquewhite;
 }
 section{
-    border: solid black 2px;
+
     max-width: 550px;
 }
-#myImage{
-    width: 200px; 
+.myImage{
+    width: 100px; 
     height:auto;
     display: flex;
     align-items: center;
     margin-left:900px;
+    border:solid dodgerblue;(58, 0, 0) 10px;
+}
+.flex.container{
+    display: flex;
+    align-items: center;
+    border: solid dodgerblue 5px;
 }
