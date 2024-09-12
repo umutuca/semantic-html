@@ -1,1 +1,48 @@
-m
+h1{
+        margin-left: 20px;
+        padding-left: 20px;
+        text-align: center;
+}
+h2{
+    text-align: center;
+    max-width: 550px;
+}
+aside {
+    font-style: italic;
+    max-width: 550px;
+    padding-left:10px;
+    margin:15px;
+    
+}
+aside h3{
+     text-decoration: underline black;
+}
+body{
+    background-color: antiquewhite;
+    text-align: left;
+
+    
+}
+footer {
+    text-align:center;
+    margin-left: 20px;
+    padding-left:20px;
+    line-height:10;
+    
+}
+article{
+    max-width: 550px;
+    padding-left:10px;
+    margin:15px;
+}
+section{
+    border: solid black 2px;
+    max-width: 550px;
+}
+#myImage{
+    width: 200px; 
+    height:auto;
+    display: flex;
+    align-items: center;
+    margin-left:900px;
+}
